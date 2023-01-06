@@ -1,0 +1,211 @@
+html {
+
+    background-color:rgba(47, 69, 79, 0.484);
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.2rem;
+    color:white;
+    background-image: url(images/design_background_by_Kappy_wedding.jpg);
+    height: 2100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+
+header {
+    text-align: left;
+    height: 100px;
+    margin-top: 10px;
+    padding-top: 30px;
+}
+
+i {
+    font-size: 21px;
+    padding-right: 20px;
+}
+
+nav {
+    border-radius: 100px 0px;
+    background-color: rgba(26, 48, 108, 0.674);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+main {
+    text-align: right;
+    height: 550px;
+    padding-top: 50px;
+    border-bottom: 1.4px solid lightgoldenrodyellow;
+}
+
+.main_nav { 
+    text-align: center;
+}
+
+.click_nav {
+    display: inline-block;
+    position: relative;
+    padding: 10px, 20px;
+    font-family:'Noto Sans JP', sans-serif;
+}
+
+footer {
+    height: 300px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100px;
+}
+
+a { 
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.nav_button {
+    display: inline-block;
+    padding: 10px, 20px; 
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.dropdown {
+    text-align: center;
+    z-index: 1;
+    display:none;
+    position: absolute;
+    padding-top: 20px;
+    margin-left: -30px;
+}
+
+.click_nav:hover .dropdown {
+    display: block;
+}
+
+.dropdown .nav_button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    background-color: rgba(26, 48, 108, 0.674);
+}
+
+.cartbox {
+    display: flex;
+    min-height: 10px;
+    justify-content: flex-end;
+}
+
+.cart {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color:rgba(47, 18, 150, 0.695);
+    padding: 11px, 25px;
+    color: rgba(26, 48. 108, 0.653);
+    border-radius: 100px;
+    box-shadow: 2px 3px rgba(11, 11, 11, 0.754);
+}
+
+.cart  a {
+    text-align: center;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    border-bottom: 1.4px solid lightgoldenrodyellow;
+}
+
+.cbox {
+    width:40%; 
+    border: 1px solid #ffffff;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.cart:hover {
+    background-color: rgba(104, 112, 144, 0.797);
+    transition-duration: 2s;
+}
+
+.cbox:hover {
+    background-color: rgba(76, 129, 135, 0.512);
+    transition-duration: 0.3s;   
+}
+
+p {
+    line-height: 2.05rem;
+}
+
+.cbox :last-child {
+    font-size: .81rem;
+    padding-left: 40px;
+}
+
+/* this turn the dropdown OFF when not in use */
+.nav_button .dropdown_nav_butt {
+    display: none;
+}
+
+/* this turn the drop down ON during hover */
+
+/*.nav_button .dropdown_nav_butt {
+    display: block;
+} */
+
+
+.nav_button:hover .dropdown_nav_butt {
+    display: block;
+    position: absolute;
+    margin-left: 200px;
+}
+
+.dropdown .nav_button:hover {
+    background-color:rgba(104, 112, 144, 0.797);
+    transition-duration: 1s;
+}
+
+
+.picsbox {
+    justify-content: space-between;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.end a {
+    text-decoration: none;
+    color: rgba(15, 15, 15, 0.908);
+}
+
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    color: rgba(14, 33, 97, 0.928);
+}
